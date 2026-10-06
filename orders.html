@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pesanan Masuk - SaveBite Merchant</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<aside class="sidebar">
+
+
+<div class="logo">
+🌱 SAVEBITE
+</div>
+
+
+
+<div class="merchant-profile">
+
+<div class="avatar">
+🍽️
+</div>
+
+
+<div>
+<h4>Resto Kita</h4>
+<p>Partner SaveBite</p>
+</div>
+
+
+</div>
+
+
+
+
+<nav>
+
+
+<a href="index.html">
+🏠 Dashboard
+</a>
+
+
+<a href="products.html">
+📦 Kelola Produk
+</a>
+
+
+<a class="active">
+📝 Pesanan Masuk
+</a>
+
+
+<a>
+🏪 Profil Restoran
+</a>
+
+
+<a>
+❓ Bantuan
+</a>
+
+
+<a class="logout">
+🚪 Keluar
+</a>
+
+
+</nav>
+
+
+</aside>
+
+
+
+
+
+
+
+<main class="content">
+
+
+
+<header class="topbar">
+
+
+<div>
+
+<h1>
+Pesanan Masuk
+</h1>
+
+
+<p>
+Kelola pesanan makanan surplus dari pelanggan
+</p>
+
+
+</div>
+
+
+</header>
+
+
+
+
+
+
+
+<section class="order-filter">
+
+
+<button class="filter-active">
+Semua (7)
+</button>
+
+
+<button>
+Belum Diambil (4)
+</button>
+
+
+<button>
+Selesai (3)
+</button>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="table-container">
+
+
+<table>
+
+
+<thead>
+
+<tr>
+
+<th>
+Kode
+</th>
+
+<th>
+Makanan
+</th>
+
+<th>
+Jumlah
+</th>
+
+<th>
+Waktu Pengambilan
+</th>
+
+<th>
+Status
+</th>
+
+<th>
+Aksi
+</th>
+
+
+</tr>
+
+
+</thead>
+
+
+
+
+
+<tbody>
+
+
+<tr>
+
+
+<td>
+SB123456
+</td>
+
+
+<td class="food">
+
+
+<img src="https://images.unsplash.com/photo-1547592180-85f173990554">
+
+
+<div>
+
+<b>
+Nasi Ayam Teriyaki
+</b>
+
+</div>
+
+
+</td>
+
+
+
+<td>
+1 porsi
+</td>
+
+
+<td>
+18.00 - 20.00 WIB
+</td>
+
+
+<td>
+
+<span class="waiting">
+Belum Diambil
+</span>
+
+</td>
+
+
+<td>
+
+<button 
+class="done-btn"
+onclick="completeOrder(this)">
+
+Tandai Selesai
+
+</button>
+
+</td>
+
+
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+
+<td>
+SB123457
+</td>
+
+
+<td class="food">
+
+
+<img src="https://images.unsplash.com/photo-1509440159596-0249088772ff">
+
+
+<div>
+
+<b>
+Roti Manis
+</b>
+
+</div>
+
+
+</td>
+
+
+
+<td>
+2 porsi
+</td>
+
+
+<td>
+17.00 - 19.00 WIB
+</td>
+
+
+<td>
+
+<span class="waiting">
+Belum Diambil
+</span>
+
+</td>
+
+
+<td>
+
+<button class="done-btn">
+Tandai Selesai
+</button>
+
+</td>
+
+
+</tr>
+
+
+
+
+
+
+
+<tr>
+
+
+<td>
+SB123458
+</td>
+
+
+<td class="food">
+
+
+<img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c">
+
+
+<div>
+
+<b>
+Paket Sushi
+</b>
+
+</div>
+
+
+</td>
+
+
+
+<td>
+1 porsi
+</td>
+
+
+<td>
+19.00 - 21.00 WIB
+</td>
+
+
+<td>
+
+<span class="success">
+Selesai
+</span>
+
+</td>
+
+
+<td>
+
+<button class="disabled">
+Selesai
+</button>
+
+</td>
+
+
+</tr>
+
+
+
+</tbody>
+
+
+</table>
+
+
+</section>
+
+
+
+</main>
+
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
